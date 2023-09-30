@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  background: hsl(216, 12%, 8%);
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+.main-title {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  margin: 20px 0 15px;
+  font-size: 25px;
+}
+
+.text {
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+  margin-bottom: 25px;
+  line-height: 22px;
+}
+
+.buttons {
+  margin-bottom: 35px;
+}
+
+.submit-button {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 115px;
+  letter-spacing: 3px;
+  font-size: 15px;
+}
+.submit-button:hover {
+  color: hsl(25, 97%, 53%);
+}
+
+.output-text {
+  color: hsl(25, 97%, 53%);
+  background: #29323d;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 30px;
+  margin: 25px 0 5px;
+}
+
+.main-wrapper {
+  background: linear-gradient(hsl(213, 19%, 18%), #171c21);
+  width: 90%;
+  margin: 150px auto;
+  border-radius: 15px;
+  padding: 30px 20px 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thankyou {
+  display: none;
+  text-align: center;
+}
+
+.star-button {
+  background: #2d3743;
+  padding: 10px 10px 4px;
+  border-radius: 50%;
+}
+
+.rating-buttons {
+  background: #36414f;
+  border-radius: 50%;
+  padding: 13px 16px 8px;
+  color: hsl(217, 12%, 63%);
+}
+
+.submit-button {
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 50px;
+}
+.submit-button:hover {
+  background: hsl(0, 0%, 100%);
+}
+
+.selected {
+  background: hsl(25, 97%, 53%) !important;
+  color: hsl(0, 0%, 100%) !important;
+}
