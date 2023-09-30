@@ -23,12 +23,24 @@ body {
   margin: 20px 0 15px;
   font-size: 25px;
 }
+@media (min-width: 1440px) {
+  .main-title {
+    margin: 40px 0 20px;
+    font-size: 30px;
+  }
+}
 
 .text {
   color: hsl(216, 12%, 54%);
   font-size: 15px;
   margin-bottom: 25px;
   line-height: 22px;
+}
+@media (min-width: 1440px) {
+  .text {
+    line-height: 27px;
+    font-size: 17px;
+  }
 }
 
 .buttons {
@@ -38,12 +50,13 @@ body {
 .submit-button {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 10px 115px;
   letter-spacing: 3px;
   font-size: 15px;
+  font-weight: 700;
 }
 .submit-button:hover {
   color: hsl(25, 97%, 53%);
+  background: hsl(0, 0%, 100%);
 }
 
 .output-text {
@@ -62,6 +75,17 @@ body {
   border-radius: 15px;
   padding: 30px 20px 40px;
 }
+@media (min-width: 800px) {
+  .main-wrapper {
+    width: 35%;
+  }
+}
+@media (min-width: 1440px) {
+  .main-wrapper {
+    width: 30%;
+    padding: 60px 40px 40px;
+  }
+}
 
 .buttons {
   display: flex;
@@ -78,6 +102,11 @@ body {
   padding: 10px 10px 4px;
   border-radius: 50%;
 }
+@media (min-width: 1440px) {
+  .star-button {
+    padding: 16px 16px 10px;
+  }
+}
 
 .rating-buttons {
   background: #36414f;
@@ -85,14 +114,19 @@ body {
   padding: 13px 16px 8px;
   color: hsl(217, 12%, 63%);
 }
+@media (min-width: 1440px) {
+  .rating-buttons {
+    padding: 18px 21px 13px;
+  }
+}
 
 .submit-button {
   background: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
   border-radius: 50px;
-}
-.submit-button:hover {
-  background: hsl(0, 0%, 100%);
+  padding: 10px;
+  display: block;
+  text-align: center;
 }
 
 .selected {

@@ -2,19 +2,24 @@
     background: lighten($dark-blue, 4%)
     padding: 10px 10px 4px
     border-radius: 50%
+    @media (min-width: 1440px)
+        padding: 16px 16px 10px
 
 .rating-buttons
     background: lighten($dark-blue, 8%)
     border-radius: 50%
     padding: 13px 16px 8px
     color: $light-grey
+    @media (min-width: 1440px)
+        padding: 18px 21px 13px
 
 .submit-button
     background: $orange
     color: $white
     border-radius: 50px
-    &:hover
-        background: $white
+    padding: 10px
+    display: block
+    text-align: center
 
 //selected class will be added on click
 .selected

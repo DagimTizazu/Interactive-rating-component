@@ -51,7 +51,7 @@ $(function () {
     }
     );
     
-   
+   //display thankyou section on submit button click, if a rating is selected and display the rating number selected 
     $('.submit-button').on('click', function(e) {
         
         if ($('.selected').length) {
