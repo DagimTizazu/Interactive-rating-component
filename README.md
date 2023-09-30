@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/interactiveratingcomponent-using-jquery-16-YyoSc2X)
+- Live Site URL: [Add live site URL here](https://dagimtizazu.github.io/Interactive-rating-component/)
 
 ## My process
 
@@ -46,20 +46,6 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
 in jQuery, a selection is considered a “truthy” value. This is because all jQuery objects, including selections, are considered truthy1. However, it’s important to note that the “truthiness” of a jQuery object doesn’t necessarily mean that the selection was successful or that the selected elements exist in the DOM. For example, if you try to select an element that doesn’t exist, jQuery will return an empty object, which is still considered truthy. Therefore, when working with jQuery selections, it’s often a good practice to check the length property of the jQuery object to ensure that the selection was successful.
 
 ```jQuery
@@ -69,7 +55,9 @@ if (selection.length) {
 } else {
     // The selection was not successful
 }
+//In this code, selection.length will be 0 if the selection was not successful, and 0 is a “falsy” value in JavaScript.
 
+//code from my script
   if ($('.selected').length) {
             $selectedNumber = $('.selected:last').text();
             $('.rating-number').text($selectedNumber);
@@ -77,8 +65,6 @@ if (selection.length) {
             $('.thankyou').css('display', 'block');
         }
 ```
-
-In this code, selection.length will be 0 if the selection was not successful, and 0 is a “falsy” value in JavaScript.
 
 ## Author
 
