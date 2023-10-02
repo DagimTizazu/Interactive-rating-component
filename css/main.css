@@ -114,6 +114,12 @@ body {
   padding: 13px 16px 8px;
   color: hsl(217, 12%, 63%);
 }
+@media (max-width: 300px) {
+  .rating-buttons {
+    min-width: 15px;
+    padding: 7px 10px 2px;
+  }
+}
 @media (min-width: 1440px) {
   .rating-buttons {
     padding: 18px 21px 13px;
